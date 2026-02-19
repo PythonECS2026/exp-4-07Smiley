@@ -14,5 +14,11 @@ t = float(input().split()[-1])
 
 si = (p * r * t) / 100
 
-print(f"Simple Interest: {si:.1f}")
+def fmt(x):
+    if x.is_integer():
+        return f"{x:.1f}"
+    else:
+        return f"{x:g}"
+
+print(f"Simple Interest: {fmt(si)}")
 # Write your code here
