@@ -2,9 +2,15 @@
 # Coder:
 # Date:
 print("Simple Interest Calculator")
-p = float(input("Enter principal amount:"))
-r = float(input("Enter rate of interest:"))
-t = float(input("Enter time period (in years):"))
+
+print("Enter principal amount:")
+p = float(input())
+
+print("Enter rate of interest:")
+r = float(input())
+
+print("Enter time period (in years):")
+t = float(input())
 
 si = (p * r * t) / 100
 
